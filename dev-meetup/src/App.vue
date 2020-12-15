@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-card color="grey lighten-4" flat tile>
-      <v-toolbar dense>
+      <v-toolbar dense class="yellow darken-3">
         <v-app-bar-nav-icon
           @click.stop="sideNav = !sideNav"
           class="hidden-sm-and-up"
@@ -20,7 +20,6 @@
             text
             v-for="item in menuItems"
             :key="item.title"
-            router
             :to="item.link"
           >
             <v-icon left>{{ item.icon }}</v-icon>
@@ -48,7 +47,6 @@
           v-for="item in menuItems"
           :key="item.title"
           link
-          router
           :to="item.link"
         >
           <v-list-item-icon>

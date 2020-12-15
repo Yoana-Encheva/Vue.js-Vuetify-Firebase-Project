@@ -4,18 +4,16 @@
       <v-btn
         xs12
         sm6
-        class="text-xs-center info ma-2"
+        class="text-xs-center yellow darken-3 ma-2"
         large
-        router
         to="/meetups"
         >Explore Meetups</v-btn
       >
       <v-btn
         xs12
         sm6
-        class="text-xs-center info ma-2"
+        class="text-xs-center yellow darken-3 ma-2"
         large
-        router
         to="/meetup/new"
         >Organize Meetup</v-btn
       >
