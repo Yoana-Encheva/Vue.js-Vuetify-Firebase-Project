@@ -4,13 +4,12 @@
       <v-col col="12">
         <v-card>
           <v-card-title class="headline">{{ meetup.title }}</v-card-title>
-          <v-card-subtitle>{{ meetup.date }}</v-card-subtitle>
+          <v-card-subtitle
+            >{{ meetup.date }} - {{ meetup.location }}</v-card-subtitle
+          >
           <v-img height="400px" :src="meetup.imageUrl"> </v-img>
           <v-card-text>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-            minima molestiae optio molestias provident cumque magnam modi quos
-            veniam consectetur eveniet neque, et sapiente ducimus eum temporibus
-            quo ratione odio!
+            {{ meetup.description }}
           </v-card-text>
           <v-card-actions>
             <v-spacer></v-spacer>
