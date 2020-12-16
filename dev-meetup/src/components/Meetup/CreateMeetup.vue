@@ -66,13 +66,11 @@
           <v-row class="mb-2">
             <v-col xs12 sm6 offset-sm3>
               <v-date-picker v-model="date"></v-date-picker>
-              <p>{{ date }}</p>
             </v-col>
           </v-row>
           <v-row>
             <v-col xs12 sm6 offset-sm3>
               <v-time-picker v-model="time" format="24hr"></v-time-picker>
-              <p>{{ time }}</p>
             </v-col>
           </v-row>
           <v-row>

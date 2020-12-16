@@ -5,7 +5,7 @@
         <v-card>
           <v-card-title class="headline">{{ meetup.title }}</v-card-title>
           <v-card-subtitle
-            >{{ meetup.date }} - {{ meetup.location }}</v-card-subtitle
+            >{{ meetup.date | date }} - {{ meetup.location }}</v-card-subtitle
           >
           <v-img height="400px" :src="meetup.imageUrl"> </v-img>
           <v-card-text>
